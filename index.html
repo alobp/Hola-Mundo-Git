@@ -3,77 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
     <title>Hola Git</title>
 </head>
 <body>
-    <h1>Hola Mundo desde Git</h1>
-    <p>Practicando uso de comandos de Git</p>
-    <ul>
-        <li>git init
-            <ul><li>  </li></ul>
-        </li>
-        <li>git status
-            <ul><li>  </li></ul>
-        </li>
-        <li>git add [archivo]
-            <ul><li>  </li></ul>
-        </li>
-        <li>git add .
-            <ul><li>sirve para agregar todos los archivos al StaginArea</li></ul>
-        </li>
-        <li>git restore [archivo]
-            <ul><li> </li></ul>
-        </li>
-        <li>git commit -m "comentario del commit"
-            <ul><li> </li></ul>
-        </li>
-        <li>git rm --cached [archivo]
-            <ul><li>sirve para quitar un archivo subido del StaginArea</li></ul>
-        </li>
-        <li>git log
-            <ul><li>Nos muestra todos los 'commit' y sus comentarios asociados</li></ul>
-        </li>
-        <li>git log --stat
-            <ul><li>Muestra los commit con info extensa</li></ul>
-        </li>
-        <li>git log --oneline
-            <ul><li>Muestra solo los comentarios de los commit</li></ul>
-        </li>
-        <li>git log --graph
-            <ul><li>Muestra una grafica (arbol) de los commit</li></ul>
-        </li>
-        <li>git log --graph --oneline --all
-            <ul><li>Muestra una grafica de todos los comentarios de los commit</li></ul>
-        </li>
-        <li>git diff
-            <ul><li>Muestra todos los cambios realizados (agregaciones en verde y eliminaciones en rojo), comparando el Archivo no guardado del ya guardado en git</li></ul>
-        </li>
-        <li>git diff [id-commit] [archivo que queremos comparar]
-            <ul><li>Muestra todos los cambios realizados (agregaciones en verde y eliminaciones en rojo), comparando el Archivo del comit con el archivo especificado</li></ul>
-        </li>
-        <li>git checkout [id-commit]
-            <ul><li>Restaura el archivo al estado que hayamos elegido en el ID-commit</li></ul>
-        </li>
-        <li>git branch
-            <ul><li> Muestra las ramas de nuestro proyecto </li></ul>
-        </li>
-        <li>git checkout -b [Nombre Rama]
-            <ul><li> Crea una nueva rama </li></ul>
-        </li>
-        <li>git checkout [Nombre Rama]
-            <ul><li> Cambia a la rama seeccionada </li></ul>
-        </li>
-<!-- 
-        <li>git 
-            <ul><li>  </li></ul>
-        </li>
-        <li>git 
-            <ul><li>  </li></ul>
-        </li>
- -->
-    </ul>
-
-    <hr>
+    <div class="contenedor">
+        <h1>Hola Mundo desde Git</h1>
+        <p>Practicando uso de comandos de Git</p>
+        <ul class="lista">
+            <li>git init
+                <ul><li>  </li></ul>
+            </li>
+            <li>git status
+                <ul><li>  </li></ul>
+            </li>
+            <li>git add [archivo]
+                <ul><li>  </li></ul>
+            </li>
+            <li>git add .
+                <ul><li>sirve para agregar todos los archivos al StaginArea</li></ul>
+            </li>
+            <li>git restore [archivo]
+                <ul><li> </li></ul>
+            </li>
+            <li>git commit -m "comentario del commit"
+                <ul><li> </li></ul>
+            </li>
+            <li>git rm --cached [archivo]
+                <ul><li>sirve para quitar un archivo subido del StaginArea</li></ul>
+            </li>
+            <li>git log
+                <ul><li>Nos muestra todos los 'commit' y sus comentarios asociados</li></ul>
+            </li>
+            <li>git log --stat
+                <ul><li>Muestra los commit con info extensa</li></ul>
+            </li>
+            <li>git log --oneline
+                <ul><li>Muestra solo los comentarios de los commit</li></ul>
+            </li>
+            <li>git log --graph
+                <ul><li>Muestra una grafica (arbol) de los commit</li></ul>
+            </li>
+            <li>git log --graph --oneline --all
+                <ul><li>Muestra una grafica de todos los comentarios de los commit</li></ul>
+            </li>
+            <li>git diff
+                <ul><li>Muestra todos los cambios realizados (agregaciones en verde y eliminaciones en rojo), comparando el Archivo no guardado del ya guardado en git</li></ul>
+            </li>
+            <li>git diff [id-commit] [archivo que queremos comparar]
+                <ul><li>Muestra todos los cambios realizados (agregaciones en verde y eliminaciones en rojo), comparando el Archivo del comit con el archivo especificado</li></ul>
+            </li>
+            <li>git checkout [id-commit]
+                <ul><li>Restaura el archivo al estado que hayamos elegido en el ID-commit</li></ul>
+            </li>
+            <li>git branch
+                <ul><li> Muestra las ramas de nuestro proyecto </li></ul>
+            </li>
+            <li>git checkout -b [Nombre Rama]
+                <ul><li> Crea una nueva rama </li></ul>
+            </li>
+            <li>git checkout [Nombre Rama]
+                <ul><li> Cambia a la rama seeccionada </li></ul>
+            </li>
+            <li>git merge [nombre de la rama secundaria]
+                <ul><li> Te posicionas en la rama principal, y la actualizas con los cambios de la rama secundaria.</li></ul>
+            </li>
+            <li>git branch -d [Nombre Rama]
+                <ul><li> BORRA una rama </li></ul>
+            </li>
+    <!-- 
+            <li>git 
+                <ul><li>  </li></ul>
+            </li>
+            <li>git 
+                <ul><li>  </li></ul>
+            </li>
+     -->
+        </ul>
+    
+        <hr>
+    </div>
 
     <section>
         <p>Para mayor informacion ir a la <a href="https://git-scm.com/">Pagina oficial de Git</a></p>
